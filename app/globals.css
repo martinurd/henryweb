@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@theme inline {
+  --font-cormorant-garamond: var(--font-cormorant-garamond);
+
+}
+
+
+
+body {
+  font-family: var(--font-cormorant-garamond) Arial, Helvetica, sans-serif;
+}
+
+.font-cormorant-garamond {
+  font-family: var(--font-cormorant-garamond);
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  /* margin: 0 auto; */
+}
