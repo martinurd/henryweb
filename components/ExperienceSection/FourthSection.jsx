@@ -12,9 +12,9 @@ export default function FourthSection() {
                         {/* Title: shows first on mobile, second on desktop */}
                         <div 
                             className="md:order-2"
-                            data-aos="fade-up"
-                            data-aos-duration="1000"
-                            data-aos-delay="50"
+                            data-aos="fade"
+                            data-aos-duration="200"
+                            data-aos-delay="10"
                         >
                             <h2 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] font-[700] text-black max-w-[480px] leading-tight">
                                 A new value proposition for GPs
@@ -24,9 +24,9 @@ export default function FourthSection() {
                         {/* Content: shows second on mobile, first on desktop */}
                         <div className="md:order-1 max-w-xl">
                             <div
-                                data-aos="fade-up"
-                                data-aos-duration="1000"
-                                data-aos-delay="200"
+                                data-aos="fade"
+                                data-aos-duration="200"
+                                data-aos-delay="10"
                             >
                                 <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-black mb-8 font-[500]">
                                     Our asset-based approach allows us to offer greater flexibility and liquidity without giving up any upside
@@ -35,9 +35,9 @@ export default function FourthSection() {
 
                             <div 
                                 className="bg-white/10 border border-gray-300 rounded-xl p-8 hover:bg-white/20 transition-all duration-300 shadow-lg"
-                                data-aos="fade-up"
-                                data-aos-duration="1000"
-                                data-aos-delay="400"
+                                data-aos="fade"
+                                data-aos-duration="200"
+                                data-aos-delay="10"
                             >
                                 <ul className="space-y-6">
                                     <li className="text-black">

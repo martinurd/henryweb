@@ -45,9 +45,9 @@ export default function Contact() {
         <section id="contact-us" className="py-8 px-4 md:px-8 bg-[#EEECE3] font-cormorant-garamond">
             <div className="max-w-7xl mx-auto">
                 <div
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="50"
+                    data-aos="fade"
+                    data-aos-duration="200"
+                    data-aos-delay="10"
                 >
                     <h2 className="text-[32px] sm:text-[40px] font-[700] text-black mb-8 text-center">
                         Contact Us
@@ -55,15 +55,15 @@ export default function Contact() {
                 </div>
                 <div
                     className="max-w-2xl mx-auto"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
+                    data-aos="fade"
+                    data-aos-duration="200"
+                    data-aos-delay="10"
                 >
                     <form ref={form} onSubmit={sendEmail} className="space-y-6">
                         <div
-                            data-aos="fade-up"
-                            data-aos-duration="800"
-                            data-aos-delay="300"
+                            data-aos="fade"
+                            data-aos-duration="200"
+                            data-aos-delay="10"
                         >
                             <label className="block text-[16px] sm:text-[20px] text-black mb-2">Name</label>
                             <input
@@ -74,9 +74,9 @@ export default function Contact() {
                             />
                         </div>
                         <div
-                            data-aos="fade-up"
-                            data-aos-duration="800"
-                            data-aos-delay="400"
+                            data-aos="fade"
+                            data-aos-duration="200"
+                            data-aos-delay="10"
                         >
                             <label className="block text-[16px] sm:text-[20px] text-black mb-2">Email</label>
                             <input
@@ -87,9 +87,9 @@ export default function Contact() {
                             />
                         </div>
                         <div
-                            data-aos="fade-up"
-                            data-aos-duration="800"
-                            data-aos-delay="500"
+                            data-aos="fade"
+                            data-aos-duration="200"
+                            data-aos-delay="10"
                         >
                             <label className="block text-[16px] sm:text-[20px] text-black mb-2">Message</label>
                             <textarea
@@ -101,9 +101,9 @@ export default function Contact() {
                         </div>
                         <div
                             className="flex justify-center"
-                            data-aos="fade-up"
-                            data-aos-duration="800"
-                            data-aos-delay="600"
+                            data-aos="fade"
+                            data-aos-duration="200"
+                            data-aos-delay="10"
                         >
                             <button
                                 type="submit"

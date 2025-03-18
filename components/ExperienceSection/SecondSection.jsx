@@ -26,7 +26,7 @@ export default function SecondSection() {
         <section id="eligibility" className="w-full bg-[#EEECE3] relative ">
             <div className="relative px-4 xl:px-0 py-20">
                 <div className="container mx-auto">
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
+                    <div data-aos="fade" data-aos-duration="200" data-aos-delay="10">
                         <h2 className="text-[24px] sm:text-[28px] font-cormorant-garamond md:text-[32px] lg:text-[36px] font-[700] text-black text-center mb-4 leading-tight">
                             We work with individual partners, entire partnerships, and anyone with illiquid assets
                         </h2>
@@ -39,8 +39,8 @@ export default function SecondSection() {
                         {cardData.map((card, index) => (
                             <div
                                 key={index}
-                                data-aos="fade-up"
-                                data-aos-duration="1000"
+                                data-aos="fade"
+                                data-aos-duration="200"
                                 data-aos-delay={card.delay}
                                 className={`bg-white/10 font-cormorant-garamond border border-gray-300 rounded-xl p-6 sm:p-8 hover:bg-white/20 transition-all duration-300 shadow-lg flex flex-col h-full ${card.className || ''}`}
                             >

@@ -84,7 +84,7 @@ export default function Faqs() {
     return (
         <main className="min-h-screen bg-[#EEECE3] font-cormorant-garamond">
             <div className="container mx-auto px-4 xl:px-0 py-24">
-                <div data-aos="fade-up" className="text-center mb-12">
+                <div data-aos="fade" className="text-center mb-12">
                     <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-[700] text-[#013220] mb-4">
                         Frequently Asked Questions
                     </h1>
@@ -96,7 +96,7 @@ export default function Faqs() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                     {faqs.map((faq) => (
                         <div key={faq.id}
-                            data-aos="fade-up"
+                            data-aos="fade"
                             data-aos-delay="100"
                             className="h-full"
                         >
@@ -122,7 +122,7 @@ export default function Faqs() {
                     ))}
                 </div>
 
-                <div data-aos="fade-up" className="text-center">
+                <div data-aos="fade" className="text-center">
                     <p className="text-[15px] sm:text-[16px] md:text-[18px] text-gray-700 mb-6">
                         Don't see your question here? Feel free to reach out to us directly.
                     </p>

@@ -33,25 +33,25 @@ export default function Banner() {
         <div className="relative z-10 h-full flex flex-col items-center justify-center">
           <div className="text-left container w-full px-4 xl:px-0 mx-auto ">
             <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="50"
+              data-aos="fade"
+              data-aos-duration="200"
+              data-aos-delay="10"
             >
               <h1 className="text-[28px] sm:text-[32px] font-cormorant-garamond md:text-[40px] lg:text-[55px] font-[700] text-white mb-6 leading-tight  ">
                 Liquidity Solutions for Private Equity Investors & Professionals
               </h1>
             </div>
             <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="400"
+              data-aos="fade"
+              data-aos-duration="200"
+              data-aos-delay="10"
             >
               <p className="text-[16px] font-cormorant-garamond  sm:text-[18px] md:text-[20px] lg:text-[22px] text-white max-w-[1200px] leading-relaxed">
                 We help PE sponsors, professionals, and limited partners unlock the value of their illiquid investments with flexible, non-dilutive credit.
               </p>
             </div>
 
-            <div data-aos="fade-up" data-aos-delay="300" className="mt-8">
+            <div data-aos="fade" data-aos-delay="10" className="mt-8">
               <Link
                 href="/contact-us"
 
