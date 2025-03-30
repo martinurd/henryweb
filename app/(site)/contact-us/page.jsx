@@ -93,7 +93,7 @@ export default function page() {
                                 >
                                     <option value="" className="text-gray-400 font-[700]">Select an option</option>
                                     <option value="Independent sponsor">Independent sponsor</option>
-                                    <option value="General partner">General partner</option>
+                                    <option value="General partner">General partner (either as a member or entire partnership)</option>
                                     <option value="Limited partner">Limited partner</option>
                                     <option value="Other">Other</option>
                                 </select>
