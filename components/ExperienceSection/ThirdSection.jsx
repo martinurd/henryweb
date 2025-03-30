@@ -15,7 +15,7 @@ export default function ThirdSection() {
                             data-aos-delay="10"
                         >
                             <h2 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] font-[700] text-black max-w-[510px] leading-tight">
-                                Leverage your assets to accomplish your goals with flexible terms to match your specific needs     
+                                Leverage your assets to accomplish your goals with terms that match to your needs     
                             </h2>
                         </div>
 
@@ -27,7 +27,7 @@ export default function ThirdSection() {
                                 data-aos-delay="10"
                             >
                                 <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-black mb-8 font-[500]">
-                                    We waive restrictive covenants, regardless of check size, and adapt terms to simplify the process and maximize value to the widest possible range of borrowers.
+                                    We waive restrictive covenants, regardless of check size, and flex terms to maximize value to the widest possible range of borrowers.
                                 </p>
                             </div>
 
