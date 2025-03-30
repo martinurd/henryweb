@@ -13,9 +13,29 @@ export default function Navbar() {
   const handleLinkClick = (e, href) => {
     if (href.startsWith('#')) {
       e.preventDefault();
-      const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+      
+      // Remove the leading slash if present (for handling both /#id and #id formats)
+      const targetId = href.replace('/#', '#').substring(1);
+      
+      // Specific handling for "why-henry" section
+      if (targetId === "why-henry") {
+        // Target a fixed position on the page for the "why-henry" link
+        // This is a hardcoded position that should be well above the FourthSection
+        window.scrollTo({
+          top: 1200, // Fixed position from the top of the page
+          behavior: 'smooth'
+        });
+      } else {
+        // Normal handling for other links
+        const element = document.getElementById(targetId);
+        if (element) {
+          const offset = 150;
+          const scrollToPosition = element.offsetTop - offset;
+          window.scrollTo({
+            top: scrollToPosition,
+            behavior: 'smooth'
+          });
+        }
       }
     }
     setNav(false); // Close mobile menu
@@ -55,7 +75,7 @@ export default function Navbar() {
           <ul className="hidden md:flex gap-10 ">
             {[
               { href: '/#about', text: 'About Us' },
-              { href: '/#eligibility', text: 'Eligibility' },
+              { href: '/#why-henry', text: 'Why Henry' },
               { href: '/faqs', text: 'FAQ' },
               { href: '/#contact-us', text: 'Contact Us' },
             ].map((item, index) => (
@@ -84,7 +104,7 @@ export default function Navbar() {
         }>
           {[
             { href: '/#about', text: 'About Us' },
-            { href: '#eligibility', text: 'Eligibility' },
+            { href: '#why-henry', text: 'Why Henry' },
             { href: '/faqs', text: 'FAQ' },
             { href: '/#contact-us', text: 'Contact Us' },
           ].map((item, index) => (

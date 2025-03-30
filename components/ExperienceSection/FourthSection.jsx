@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function FourthSection() {
     return (
-        <section className="relative font-cormorant-garamond">
+        <section id="why-henry" className="relative font-cormorant-garamond">
             <div className="absolute inset-0 bg-[#EEECE3]" />
             <div className="relative py-8 px-4 md:px-8">
                 <div className="container mx-auto">
@@ -17,7 +17,7 @@ export default function FourthSection() {
                             data-aos-delay="10"
                         >
                             <h2 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] font-[700] text-black max-w-[480px] leading-tight">
-                                A new value proposition for GPs
+                                A new way of unlocking liquidity in private markets without selling, risking forced sales, or changing control rights 
                             </h2>
                         </div>
 
@@ -29,7 +29,7 @@ export default function FourthSection() {
                                 data-aos-delay="10"
                             >
                                 <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-black mb-8 font-[500]">
-                                    Our asset-based approach allows us to offer greater flexibility and liquidity without giving up any upside
+                                    Our asset-based approach allows us to offer greater liquidity than traditional banks. Our status as a corporation allows us to be more flexible than funds with a mandate.
                                 </p>
                             </div>
 
@@ -45,7 +45,7 @@ export default function FourthSection() {
                                             Flexible
                                         </span>
                                         <p className="text-[14px] sm:text-[16px] md:text-[18px] font-[500]">
-                                            LPA-friendly, covenant-light agreements
+                                            Designed case-by-case to best match the needs of each borrower
                                         </p>
                                     </li>
                                     <li className="text-black">
@@ -53,7 +53,7 @@ export default function FourthSection() {
                                             Non-dilutive
                                         </span>
                                         <p className="text-[14px] sm:text-[16px] md:text-[18px] font-[500]">
-                                            Ownership stays with GPs, maintaining upside and alignment
+                                            Retain ownership, upside, and alignment without introducing third-party control 
                                         </p>
                                     </li>
                                     <li className="text-black">
@@ -61,7 +61,7 @@ export default function FourthSection() {
                                             No personal guaranty
                                         </span>
                                         <p className="text-[14px] sm:text-[16px] md:text-[18px] font-[500]">
-                                            Focus is solely on the economics of the assets
+                                            Recourse only against the interests pledged, not the borrower behind them 
                                         </p>
                                     </li>
                                     <li className="text-black">
@@ -69,7 +69,7 @@ export default function FourthSection() {
                                             Flexible repayment
                                         </span>
                                         <p className="text-[14px] sm:text-[16px] md:text-[18px] font-[500]">
-                                            No amortization and option to accrue interest until the next distribution
+                                            Schedule based on borrower feedback, given our ability to accrue interest, bullet amortization, or both 
                                         </p>
                                     </li>
                                 </ul>

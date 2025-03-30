@@ -24,7 +24,7 @@ export default function page() {
             )
             .then((result) => {
                 console.log('SUCCESS!', result.text);
-                setSubmitStatus({ type: 'success', message: 'Message sent successfully!' });
+                setSubmitStatus({ type: 'success', message: 'Thank you for your message. We will get back to you shortly.' });
                 form.current.reset();
                 trackEvent('contact_form_submit_success');
             })
@@ -57,7 +57,7 @@ export default function page() {
                         <form ref={form} onSubmit={handleSubmit} className="space-y-6" data-aos="fade-up" data-aos-delay="150">
                             <div>
                                 <label htmlFor="user_name" className="block text-[#013220] text-[16px] font-[600] mb-2">
-                                    Full Name
+                                    Name
                                 </label>
                                 <input
                                     type="text"

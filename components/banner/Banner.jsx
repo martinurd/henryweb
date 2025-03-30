@@ -57,7 +57,7 @@ export default function Banner() {
 
                 className="inline-block mt-0 px-6 py-3 bg-white/20 hover:bg-white/30 text-white text-[16px] sm:text-[18px] md:text-[20px] rounded-lg backdrop-blur-sm transition-all duration-300 hover:scale-110 transform"
               >
-                Get Started
+                Learn More
               </Link>
             </div>
           </div>

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function ThirdSection() {
     return (
-        <section className="relative font-cormorant-garamond">
+        <section id="experience-section-3" className="relative font-cormorant-garamond">
             <div className="absolute inset-0 bg-[#EEECE3] " />
             <div className="relative py-8 px-4 xl:px-0">
                 <div className="container mx-auto">
@@ -15,7 +15,7 @@ export default function ThirdSection() {
                             data-aos-delay="10"
                         >
                             <h2 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] font-[700] text-black max-w-[510px] leading-tight">
-                                We leverage your assets to help accomplish your goals. No use case restrictions or unnecessary covenants
+                                Leverage your assets to accomplish your goals with flexible terms to match your specific needs     
                             </h2>
                         </div>
 
@@ -27,7 +27,7 @@ export default function ThirdSection() {
                                 data-aos-delay="10"
                             >
                                 <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-black mb-8 font-[500]">
-                                    We waive restrictive covenants and streamline execution, regardless of check size, enabling us to address a wide range of use cases and needs.
+                                    We waive restrictive covenants, regardless of check size, and adapt terms to simplify the process and maximize value to the widest possible range of borrowers.
                                 </p>
                             </div>
 
@@ -45,19 +45,19 @@ export default function ThirdSection() {
                                     <li className="text-black">
                                         <span className="text-[16px] sm:text-[18px] md:text-[20px] font-[700] block mb-2">Use case</span>
                                         <p className="text-[14px] font-[500] sm:text-[16px] md:text-[18px]">
-                                            No restrictions. Common uses include capital calls, new deals & funds, or managing personal liquidity
+                                            Common uses include new deals & funds, supporting fundraising, or managing liquidity in general
                                         </p>
                                     </li>
                                     <li className="text-black">
                                         <span className="text-[16px] sm:text-[18px] md:text-[20px] font-[700] block mb-2">Asset class</span>
                                         <p className="text-[14px] font-[500] sm:text-[16px] md:text-[18px]">
-                                            PE (Buyout, Growth), RE (Core, Core+, Value-Add), Infrastructure, secondaries & other nice assets
+                                            PE (Buyout, Growth), RE (Core, Core+, Value-Add), Infrastructure, secondaries & other niche assets
                                         </p>
                                     </li>
                                     <li className="text-black">
                                         <span className="text-[16px] sm:text-[18px] md:text-[20px] font-[700] block mb-2">Collateral package</span>
                                         <p className="text-[14px] font-[500] sm:text-[16px] md:text-[18px]">
-                                            3 or more assets, ability to cross-collateralize among funds and assets
+                                            3 or more assets, ability to cross-collateralize assets in different funds, asset classes and types of ownerships
                                         </p>
                                     </li>
                                 </ul>

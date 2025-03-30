@@ -4,18 +4,18 @@ import React from 'react'
 
 const cardData = [
     {
-        title: "Emerging Fund GPs",
-        description: "Meet or increase GP commitments starting at Fund I. We can work with individual members of the GP without impacting others.",
+        title: "Fund Managers",
+        description: "Unlock some of the value of your unrealized interests without selling or giving up upside. We can work with entire GPs or individual partners independently. ",
         delay: 200,
     },
     {
         title: "Independent Sponsors",
-        description: "Independent sponsors choose us to lever past investments and complete new deals or maximize working capital.",
+        description: "Leverage your interests from unrealized deals to fund new acquisitions, boost your skin in the game and strengthen your fundraising position.",
         delay: 400,
     },
     {
         title: "Limited Partners & HNWIs",
-        description: "We can help avoid the costs of refinancing existing debt, selling assets at a discount, and more.",
+        description: "Manage your liquidity or private market exposure without selling interests at a discount. Our terms are LPA-friendly and don't require personal guarantees. ",
         delay: 600,
         className: "sm:col-span-2 lg:col-span-1"
     }
@@ -23,7 +23,7 @@ const cardData = [
 
 export default function SecondSection() {
     return (
-        <section id="eligibility" className="w-full bg-[#EEECE3] relative ">
+        <section id="experience-section-2" className="w-full bg-[#EEECE3] relative ">
             <div className="relative px-4 xl:px-0 py-20">
                 <div className="container mx-auto">
                     <div data-aos="fade" data-aos-duration="200" data-aos-delay="10">
@@ -57,7 +57,7 @@ export default function SecondSection() {
                                         hover:text-[#296354] 
                                         hover:text-opacity-75 hover:translate-x-1 transition-all duration-300 ease-in-out"
                                     >
-                                        Apply now
+                                        Learn more
                                     </Link>
                                 </button>
                             </div>
