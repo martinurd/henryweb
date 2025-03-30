@@ -29,7 +29,7 @@ export default function FourthSection() {
                                 data-aos-delay="10"
                             >
                                 <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-black mb-8 font-[500]">
-                                    Our asset-based approach allows us to offer greater liquidity than traditional banks. Our status as a corporation allows us to be more flexible than funds with a mandate.
+                                Our asset-based approach allows us to untap liquidity in assets that traditional banks overlook. As a lender with a balance sheet, we are more flexible than a fund with a mandate.
                                 </p>
                             </div>
 
@@ -42,7 +42,7 @@ export default function FourthSection() {
                                 <ul className="space-y-6">
                                     <li className="text-black">
                                         <span className="text-[16px] sm:text-[18px] md:text-[20px] font-[700] block mb-2">
-                                            Flexible
+                                            Flexible terms
                                         </span>
                                         <p className="text-[14px] sm:text-[16px] md:text-[18px] font-[500]">
                                             Designed case-by-case to best match the needs of each borrower

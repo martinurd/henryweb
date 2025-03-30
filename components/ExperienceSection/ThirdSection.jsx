@@ -15,7 +15,7 @@ export default function ThirdSection() {
                             data-aos-delay="10"
                         >
                             <h2 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] font-[700] text-black max-w-[510px] leading-tight">
-                                Leverage your assets to accomplish your goals with terms that match to your needs     
+                                Leverage your assets with terms that match your needs     
                             </h2>
                         </div>
 

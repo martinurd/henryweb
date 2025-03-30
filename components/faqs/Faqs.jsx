@@ -8,12 +8,12 @@ export default function Faqs() {
         {
             id: 'faq1',
             question: 'What types of assets do you accept as collateral?',
-            answer: 'We accept a wide range of private equity assets including fund interests, GP commitments, management company interests, and carried interest. We focus on high-quality PE, RE, and Infrastructure assets.'
+            answer: 'We accept a wide range of private assets including fund interests, GP commitments, management company interests, and carried interest. We focus on high-quality PE (Buyout, Growth, VC), RE, and Infrastructure investments.'
         },
         {
             id: 'faq2',
             question: 'What is your typical check size?',
-            answer: 'Our typical check size ranges from $250,000 to $15 million, though we can be flexible based on the specific situation and assets involved.'
+            answer: 'Our typical check size ranges from $250,000 to $25 million, though we can be flexible based on the specific situation and assets involved.'
         },
         {
             id: 'faq3',
@@ -28,7 +28,7 @@ export default function Faqs() {
         {
             id: 'faq5',
             question: 'What are your typical terms?',
-            answer: 'Our terms are flexible and tailored to each situation. We typically offer 2-5 year terms with interest-only payments and no amortization requirements.'
+            answer: 'Our terms are flexible and tailored to the needs of each borrower. We can offer 1-4 year terms and have the ability to accrue interest as PIK, do a mix of PIK and cash pay, have interest-only payments until maturity, or simply charge cash interest. Principal repayments can amortize after a grace period or be repaid in bullet payments with any accrued PIK when realizations come in.'
         },
         {
             id: 'faq6',
@@ -38,12 +38,12 @@ export default function Faqs() {
         {
             id: 'faq7',
             question: 'Why would a GP want to use this?',
-            answer: 'Liquidity without giving up any upside, and with an option to defer all cash interest until a sale. No personal guarantees, no control rights and LPA-friendly.'
+            answer: 'Gain liquidity without giving up any upside, and with an option to defer all cash repayments until a sale. No personal guarantees, no control rights, and LPA-friendly.'
         },
         {
             id: 'faq8',
             question: 'What are the main use cases?',
-            answer: 'Some common use cases include add-ons, new platform acquisitions, GP capital commitments, working capital or managing liquidity in general.'
+            answer: 'Common use cases include add-ons, new platform acquisitions, GP capital commitments, working capital or managing liquidity in general.'
         },
         {
             id: 'faq9',

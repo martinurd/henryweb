@@ -26,7 +26,7 @@ export default function AboutSection() {
                     data-aos-delay="10"
                 >
                     <p className="text-lg leading-relaxed mb-8 text-white font-[600]">
-                        Henry Capital is a pure play liquidity provider for PE professionals and investors. Our goal is to be a strategic partner with our clients by reducing the liquidity mismatch that managers and investors experience as they grow their firms and portfolios. Accordingly, we are backed by permanent capital to provide liquidity regardless of the fundraising market.
+                        Henry Capital is a pure play liquidity provider for PE professionals and investors. Our goal is to be a strategic partner with our clients by reducing the liquidity mismatch that managers and investors experience as they grow their firms and portfolios. Accordingly, we are backed by permanent capital to provide liquidity from our balance sheet regardless of the fundraising market.
                     </p>
                     <p className="text-[18px] text-white/90 leading-relaxed">
                         Having experienced this illiquidity ourselves, we understand the pain points and can find creative ways to help you achieve your goals. The loans have the option to accrue the interest until there are underlying distributions. We draw from asset-backed lending and hybrid practices to best tailor our products.
