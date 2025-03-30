@@ -44,7 +44,7 @@ export default function Footer() {
                 <div className="mt-6">
                     <p className="text-white text-sm font-medium mb-2 font-sans">Disclosures</p>
                     <p className="text-sm text-white-500 mt-4 font-sans">
-                        Past performance is not a guide to future results. The products, services, information and/or materials contained within this web page may not be available for residents of certain jurisdictions. Information on this site is proprietary and may not to be reproduced, transferred, or distributed in any form without prior written permission from <span className="henry-font">Henry Capital</span>. It is delivered on an "as is" basis without warranty or liability.
+                        The products, services, information and/or materials contained within this web page do not constitute an offer to sell or the solicitation of an offer to buy any security or other financial instrument. Information on this site is proprietary and may not to be reproduced, transferred, or distributed in any form without prior written permission from <span className="henry-font">Henry Capital</span>. It is delivered on an "as is" basis without warranty or liability.
                     </p>
                 </div>
             </div>
