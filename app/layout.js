@@ -1,5 +1,6 @@
 import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const cormorantGaramond = Cormorant_Garamond({
   variable: "--font-cormorant-garamond",
@@ -41,6 +42,9 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/logo/log.png" sizes="32x32" />
       </head>
       <body className="antialiased font-cormorant-garamond">
+        <Script id="rb2b-script" strategy="afterInteractive">
+          {`!function(key) {if (window.reb2b) return;window.reb2b = {loaded: true};var s = document.createElement("script");s.async = true;s.src = "https://ddwl4m2hdecbv.cloudfront.net/b/" + key + "/" + key + ".js.gz";document.getElementsByTagName("script")[0].parentNode.insertBefore(s, document.getElementsByTagName("script")[0]);}("VN080HXPQJ6J");`}
+        </Script>
         {children}
       </body>
     </html>
